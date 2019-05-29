@@ -1,0 +1,18 @@
+<!-- INICIO DO CONTEUDO -->
+  <section class="content-header">
+  </section>
+
+  <section class="content">
+    <div class="jumbotron">
+      <h2>Pedido Conluído</h2>
+      <p>Seu pedido foi recebido pela empresa desenvolvedora. Prepare-se para a jogatina!</p>
+      <p><b>Avalie</b> sua experiência:</p>
+      <p><mt-rating (rated)="rate()"></mt-rating></p>
+      <p *ngIf="rated">
+        Obrigado pela sua avaliação!
+      </p>
+      <a class="btn btn-primary btn-lg" [routerLink]="['/companys']">desenvolvedores</a>
+    </div>
+
+  </section>
+  <!-- FIM DO CONTEUDO -->

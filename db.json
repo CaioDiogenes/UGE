@@ -1,0 +1,562 @@
+{
+  "companys": [
+    {
+      "id": "epic-games",
+      "name": "Epic Games",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/epic games.jpg",
+      "about": "Jogos com qualidade é aqui mesmo"
+    },
+    {
+      "id": "levelup",
+      "name": "Level Up Games",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/Level Up.jpg",
+      "about": "A Level Up! é uma empresa inovadora, que nasceu com a missão de levar para o mercado uma nova experiência em entretenimento digital. Fundada na Ásia em 2002, a Level Up! possui operações nas Filipinas, Estados Unidos e Brasil, onde está presente desde 2004.",
+      "hours": "RS37.99"
+    },
+    {
+      "id": "riot",
+      "name": "Riot Games",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/Riot Games.jpg",
+      "about": "Confira a dedicação da Riot em continuar sendo um lugar acolhedor, diverso e empoderador para todos os Rioters e futuros Rioters.",
+      "hours": "Free"
+    },
+    {
+      "id": "valve",
+      "name": "Valve Corporation",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/Valve.jpg",
+      "about": "'Abre seus olhos' 'Abra sua mente' nosso maior slogan tornando-se realidade.",
+      "hours": "US12.00"
+    },
+    {
+      "id": "crytek",
+      "name": "Crytek",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/Crytek.png",
+      "about": "amamos games e desenvolvimento de games. Estamos animados com as possibilidades para desenvolvedores oferecidas pela SpatialOS e seu gameplay multiplayer da próxima geração.",
+      "hours": "RS17.99"
+    },
+    {
+      "id": "smilegate",
+      "name": "Smilegate",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/company/sg.jpg",
+      "about": "A Smilegate é uma desenvolvedora e editora de videogames sul-coreana que desenvolve, publica e presta serviços a jogos on-line móveis e para PC",
+      "hours": "RS25.99"
+    },
+    {
+      "id": "ea-games",
+      "name": "EA Games",
+      "category": "Multiplataform",
+      "imagePath": "assets/img/games/ea.jpg",
+      "about": "reconhecida por ter em seu portfólio marcas de enorme sucesso e alta qualidade, como The Sims™, Madden NFL, EA SPORTS™ FIFA, Battlefield™, Need for Speed™, Dragon Age™ e Plants vs. Zombies™."
+    }
+  ],
+  "games": [
+    {
+      "id": "fort",
+      "imagePath": "assets/img/games/fortnite.jpg",
+      "name": "Fortnite",
+      "description": "100 jogadores 1 mapa e muito tiroteio, que vença o melhor!",
+      "price": 0,
+      "companyId": "epic-games"
+    },
+    {
+      "id": "gow",
+      "imagePath": "assets/img/games/gow.jpg",
+      "name": "Gears of War",
+      "description": "Enfrente inimigos ambiociosos como aliens vs predadores.",
+      "price": 14.99,
+      "companyId": "epic-games"
+    },
+    {
+      "id": "unreal",
+      "imagePath": "assets/img/games/unreal-tournament.jpg",
+      "name": "Unreal Tournament",
+      "description": "O inicio está a recomeçar escolha sua classe e crie seu personagem do seu jeito.",
+      "price": 0,
+      "companyId": "epic-games"
+    },
+    {
+      "id": "pw",
+      "imagePath": "assets/img/games/pw.jpg",
+      "name": "Perfect World",
+      "description": "Crie um personagem e faça mudanças nas suas habilidades, acumule riquezas e poderes seja o melhor.",
+      "price": 0,
+      "companyId": "levelup"
+    },
+    {
+      "id": "gc",
+      "imagePath": "assets/img/games/pw.jpg",
+      "name": "Grand Chase",
+      "description": "Crie um personagem e faça mudanças nas suas habilidades, acumule riquezas e poderes seja o melhor.",
+      "price": 0,
+      "companyId": "levelup"
+    },
+    {
+      "id": "mars",
+      "imagePath": "assets/img/games/pw.jpg",
+      "name": "M.A.R.S",
+      "description": "No mundo do apocalipse e guerras quem vence é o melhor, prove sua dignidade.",
+      "price": 0,
+      "companyId": "levelup"
+    },
+    {
+      "id": "ragnarok",
+      "imagePath": "assets/img/games/ragnarok.jpg",
+      "name": "Ragnarok",
+      "description": "Embarque em uma jornada para caçar os porings malvados pelo mundo.",
+      "price": 0,
+      "companyId": "levelup"
+    },
+    {
+      "id": "mu",
+      "imagePath": "assets/img/games/mu.jpg",
+      "name": "MU",
+      "description": "Ação sem limites nesse jogo tudo o que se move torna seu inimigo!",
+      "price": 0,
+      "companyId": "levelup"
+    },
+    {
+      "id": "lol",
+      "imagePath": "assets/img/games/lol.png",
+      "name": "League of Legends",
+      "description": "Crie um grupo de 5 amigos e venha para Summoner's Rift",
+      "price": 0,
+      "companyId": "riot"
+    },
+    {
+      "id": "astro",
+      "imagePath": "assets/img/games/astro-teemo.png",
+      "name": "Astro Teemo",
+      "description": "Astro Teemo está explorando um labirinto de estrelas e moedas, enquanto voa pelo céu astral! Ajude o herói do arco-íris a ir o mais longe que puder no espaço",
+      "price": 0,
+      "companyId": "riot"
+    },
+    {
+      "id": "dota",
+      "imagePath": "assets/img/games/dota1.png",
+      "name": "D.O.T.A 1",
+      "description": "O Todos os dias, milhões de jogadores em todo o mundo entram na batalha como um dos mais de cem heróis Dota. E não importa se é a décima hora de jogo ou o milésimo, sempre há algo novo para descobrir.",
+      "price": 0,
+      "companyId": "riot"
+    },
+    {
+      "id": "csgo",
+      "imagePath": "assets/img/games/csgo.png",
+      "name": "Counter Strike: Global Ofense",
+      "description": "Terroristas ou Contraterroristas, quem irá vencer está ardua disputa?",
+      "price": 27.98,
+      "companyId": "valve"
+    },
+    {
+      "id": "teamF",
+      "imagePath": "assets/img/games/csgo.png",
+      "name": "Team Fortress",
+      "description": "Terroristas ou Contraterroristas, quem irá vencer está ardua disputa?",
+      "price": 27.98,
+      "companyId": "valve"
+    },
+    {
+      "id": "quake",
+      "imagePath": "assets/img/games/csgo.png",
+      "name": "Quake",
+      "description": "Terroristas ou Contraterroristas, quem irá vencer está ardua disputa?",
+      "price": 27.98,
+      "companyId": "valve"
+    },
+    {
+      "id": "l4d",
+      "imagePath": "assets/img/games/l4d.png",
+      "name": "Left 4 Dead",
+      "description": "Um jogo coop de ãção e horror!",
+      "price": 20.69,
+      "companyId": "valve"
+    },
+    {
+      "id": "dota",
+      "imagePath": "assets/img/games/dota2.png",
+      "name": "D.O.T.A 2",
+      "description": "Melhoramos os graficos do dota para proporcionar maior experiencia para os invocadores aqui presentes.",
+      "price": 0,
+      "companyId": "valve"
+    },
+    {
+      "id": "crysis",
+      "imagePath": "assets/img/games/crysis.png",
+      "name": "Crysis",
+      "description": "Criado para matar, seja minha presa!",
+      "price": 39.99,
+      "companyId": "crytek"
+    },
+    {
+      "id": "farcry",
+      "imagePath": "assets/img/games/crysis.png",
+      "name": "Far Cry",
+      "description": "Criado para matar, seja minha presa!",
+      "price": 39.99,
+      "companyId": "crytek"
+    },
+    {
+      "id": "warfac",
+      "imagePath": "assets/img/games/warface.jpg",
+      "name": "Warface",
+      "description": "Entre nessa batalha com times habilidosos e jogadores desconhecidos, enfrente seu medo soldado!",
+      "price": 0,
+      "companyId": "crytek"
+    },
+    {
+      "id": "ryse",
+      "imagePath": "assets/img/games/ryse son of rome.png",
+      "name": "Ryse: Son of Rome",
+      "description": "Envolva-se em combates brutais e conduza suas tropas em grandes batalhas para salvar Roma de ameaças à sua própria existência.",
+      "price": 49.98,
+      "companyId": "crytek"
+    },
+    {
+      "id": "cf",
+      "imagePath": "assets/img/games/cf.png",
+      "name": "CrossFire",
+      "description": " Pay to win",
+      "price": 0,
+      "companyId": "smilegate"
+    },
+    {
+      "id": "lostArk",
+      "imagePath": "assets/img/games/lost ark.png",
+      "name": "Lost Ark",
+      "description": "O mundo inteiro está no caos do ataque do exército demoníaco de Kazeros. A única força que pode se levantar contra os demônios!",
+      "price": 40.5,
+      "companyId": "smilegate"
+    },
+    {
+      "id": "epicSeven",
+      "imagePath": "assets/img/games/epic-seven.png",
+      "name": "Epic Seven",
+      "description": "E assim começou o 7º Mundo...Diche, a Deusa da Vida, evocou todo o seu poder minguante e mais uma vez deu forma aos Guardiões e ao Herdeiro da Aliança. Meus filhos, eu confio este mundo a vocês.",
+      "price": 0,
+      "companyId": "smilegate"
+    },
+    {
+      "id": "theSims",
+      "imagePath": "assets/img/games/sims.jgp",
+      "name": "The Sims 4",
+      "description": "Curta o poder de criar e controlar pessoas no mundo virtual sem regras no jogo",
+      "price": 160,
+      "companyId": "ea-games"
+    },
+    {
+      "id": "apex",
+      "imagePath": "assets/img/games/apex.png",
+      "name": "Apex Legends",
+      "description": "Apex Legends é um jogo eletrônico free-to-play do gênero battle royale.",
+      "price": 0,
+      "companyId": "ea-games"
+    },
+    {
+      "id": "bf",
+      "imagePath": "assets/img/games/bf.png",
+      "name": "Battlefield",
+      "description": "Entre no maior conflito da humanidade com Battlefield™ V com a série retornando às suas raízes em uma representação nunca antes vista da 2ª Guerra Mundial.",
+      "price": 320,
+      "companyId": "ea-games"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "ok, tudo conforme o combinado",
+      "companyId": "epic-games"
+    },
+    {
+      "name": "Aline",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3,
+      "comments": "NÃO recomendo",
+      "companyId": "epic-games"
+    },
+    {
+      "name": "Renata",
+      "date": "2016-12-12T18:25:43",
+      "rating": 2,
+      "comments": "jogavel...",
+      "companyId": "epic-games"
+    },
+    {
+      "name": "Marinelton",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Pior que esse so meu nome",
+      "companyId": "levelup"
+    },
+    {
+      "name": "Marcos",
+      "date": "2017-01-23T18:25:43",
+      "rating": 4,
+      "comments": "",
+      "companyId": "levelup"
+    },
+    {
+      "name": "Junior",
+      "date": "2017-02-02T18:25:43",
+      "rating": 2,
+      "comments": "Jogo tao ruim que peguei cancer, seu porco!",
+      "companyId": "valve"
+    },
+    {
+      "name": "Mario",
+      "date": "2016-12-12T18:25:43",
+      "rating": 3.5,
+      "comments": "Aquele que te comeu atras do armário",
+      "companyId": "valve"
+    },
+    {
+      "name": "Eric",
+      "date": "2017-01-23T18:25:43",
+      "rating": 1,
+      "comments": "Excelente jogo! Recomendo!",
+      "companyId": "riot"
+    },
+    {
+      "name": "Amanda",
+      "date": "2017-02-02T18:25:43",
+      "rating": 1,
+      "comments": "Meu pau ate murcho quando joguei isso que desgosto",
+      "companyId": "riot"
+    },
+    {
+      "name": "Carla",
+      "date": "2016-12-12T18:25:43",
+      "rating": 6,
+      "comments": "Os jogos poderiam ser de verdade, ñ?",
+      "companyId": "riot"
+    },
+    {
+      "name": "Rodrigo",
+      "date": "2016-12-12T18:25:43",
+      "rating": 5,
+      "comments": "Entregou ok...",
+      "companyId": "riot"
+    },
+    {
+      "name": "André",
+      "date": "2016-12-12T18:25:43",
+      "rating": 4,
+      "comments": "Bom mas nao otimo!",
+      "companyId": "levelup"
+    },
+    {
+      "name": "João",
+      "date": "2017-01-23T18:25:43",
+      "rating": 9,
+      "comments": "Excelente. Fiz o pedido com outro endereço e quando vi o erro liguei avisando. Estou sempre comprando jogos aqui e recomendando",
+      "companyId": "valve"
+    },
+    {
+      "name": "Marcelo",
+      "date": "2017-02-02T18:25:43",
+      "comments": "",
+      "companyId": "valve"
+    },
+    {
+      "name": "Murillo",
+      "date": "2017-01-23T18:25:43",
+      "rating": 2,
+      "comments": "Ñ gostei de nada, site bosta",
+      "companyId": "crytek"
+    },
+    {
+      "name": "Lucas",
+      "date": "2017-02-02T18:25:43",
+      "rating": 1,
+      "comments": "1 ano para essa transação acabar, cruz credo! Que demora",
+      "companyId": "crytek"
+    },
+    {
+      "name": "André",
+      "date": "2017-02-01T18:25:43",
+      "comments": "Veio OK!",
+      "companyId": "crytek"
+    },
+    {
+      "name": "Felipe",
+      "date": "2017-01-23T18:25:43",
+      "comments": "Bom jogo",
+      "companyId": "smilegate"
+    },
+    {
+      "name": "Gustavo",
+      "date": "2017-02-02T18:25:43",
+      "comments": "hmmmm interessante",
+      "companyId": "smilegate"
+    },
+    {
+      "name": "Fresney",
+      "date": "2016-12-15T18:25:43",
+      "rating": 2,
+      "comments": "Excelente e pena que o jogo é uma bosta",
+      "companyId": "smilegate"
+    },
+    {
+      "name": "Caio",
+      "date": "2017-01-12T18:25:43",
+      "comments": "Que merda mermão! :x",
+      "companyId": "smilegate"
+    },
+    {
+      "name": "Julia",
+      "date": "2016-12-12T18:25:43",
+      "comments": "No comment.",
+      "companyId": "smilegate"
+    },
+    {
+      "name": "Matheus",
+      "date": "2016-12-20T18:25:43",
+      "comments": "Jogo estressate!",
+      "companyId": "smilegate"
+    }
+  ],
+  "orders": [
+    {
+      "name": "BR shopper",
+      "email": "kaitohiraga@gmail.com",
+      "emailConfirmation": "kaitohiraga@gmail.com",
+      "address": "Avenida Rincao 920",
+      "number": "920",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "lol"
+        },
+        {
+          "quantity": 1,
+          "menuId": "dota"
+        },
+        {
+          "quantity": 1,
+          "menuId": "astro"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "BR shopper",
+      "email": "fasd@afsad.com",
+      "emailConfirmation": "fasd@afsad.com",
+      "address": "Avenida Rincao 920",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fort"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "BR shopper",
+      "email": "fasd2@asdf2.com",
+      "emailConfirmation": "fasd2@asdf2.com",
+      "address": "Avenida Rincao 920",
+      "number": "23",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "unreal"
+        },
+        {
+          "quantity": 1,
+          "menuId": "pw"
+        },
+        {
+          "quantity": 1,
+          "menuId": "ragnarok"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "BR shopper",
+      "email": "fa@sadf.com",
+      "emailConfirmation": "fa@sadf.com",
+      "address": "Avenida Rincao 920",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fort"
+        },
+        {
+          "quantity": 1,
+          "menuId": "gow"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "BR shopper",
+      "email": "das@asd.com",
+      "emailConfirmation": "das@asd.com",
+      "address": "Avenida Rincao 920",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fort"
+        },
+        {
+          "quantity": 1,
+          "menuId": "gow"
+        },
+        {
+          "quantity": 1,
+          "menuId": "unreal"
+        },
+        {
+          "quantity": 1,
+          "menuId": "pw"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "BR shopper",
+      "email": "caio@caio.com",
+      "emailConfirmation": "caio@caio.com",
+      "address": "Avenida Rincao 920",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "fort"
+        },
+        {
+          "quantity": 1,
+          "menuId": "gow"
+        },
+        {
+          "quantity": 1,
+          "menuId": "unreal"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
